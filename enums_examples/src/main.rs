@@ -16,6 +16,21 @@ enum IpAddrKind2 {
 fn main() {
     let home = IpAddr::V4(Ipv4Addr::new(127, 0, 0, 1));
 
-    let x: Option<i8> = Some(6);
-    let y: Option<i8> = Some(5);
+    let x: Option<i32> = Some(6);
+    let y: Option<i32> = Some(5);
+    let z: Option<i32> = Some(3);
+
+    let result = plus_one(z);
+    println!("Результат: {:?}", result);
+
+    if let Some(3) = z {
+        println!("three");
+    }
+}
+
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    match x {
+        None => None,
+        Some(i) => Some(i + 1),
+    }
 }

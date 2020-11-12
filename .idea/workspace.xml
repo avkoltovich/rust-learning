@@ -31,7 +31,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a14641fb-49fe-4566-a982-b5ea0ea17e6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/rust-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam_8/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exam_8/src/main.rs" afterDir="false" />
     </list>
@@ -89,8 +88,17 @@
       <workItem from="1605040717645" duration="548000" />
       <workItem from="1605173887525" duration="99000" />
       <workItem from="1605173996890" duration="506000" />
-      <workItem from="1605174605182" duration="496000" />
+      <workItem from="1605174605182" duration="1285000" />
+      <workItem from="1605188359779" duration="760000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: добавлят часть очередного задания 8го раздела">
+      <created>1605175972752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605175972752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +118,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: добавлят часть очередного задания 8го раздела" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: добавлят часть очередного задания 8го раздела" />
   </component>
   <component name="WindowStateProjectService">
     <state x="668" y="258" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605174616642">
@@ -122,5 +132,9 @@
     </state>
     <state x="88" y="106" width="1130" height="709" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1605041184185" />
     <state x="117" y="148" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1605174498829" />
+    <state x="555" y="257" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605175976315">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="257" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605175976315" />
   </component>
 </project>

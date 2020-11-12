@@ -72,4 +72,8 @@ fn get_number_count(list: &Vec<i32>) {
     println!("Чаще всего встречается: {}", biggest_key);
 }
 
-fn get_pig_latin_string(string: &String) {}
+fn get_pig_latin_string(string: &String) {
+    let vowels: [&str; 6] = ["a", "e", "i", "o", "u", "y"];
+
+    let first_letter = string;
+}

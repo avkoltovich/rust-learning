@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 fn main() {
     let list: Vec<i32> = vec![78, 33, 20, 90, 65, 6, 54, 15, 15, 33, 33, 6, 15, 15, 15];
-    let word = String::from("first");
+    let word: &str = "apple";
 
     get_average(&list);
     get_median(&list);
@@ -72,8 +72,23 @@ fn get_number_count(list: &Vec<i32>) {
     println!("Чаще всего встречается: {}", biggest_key);
 }
 
-fn get_pig_latin_string(string: &String) {
-    let vowels: [&str; 6] = ["a", "e", "i", "o", "u", "y"];
+fn get_pig_latin_string(string: &str) {
+    let mut word = String::from(string);
+    let first_letter = word.remove(0);
+    let final_word: String;
 
-    let first_letter = string;
+    if is_vowel(&first_letter) {
+        final_word = format!("{}{}-{}", first_letter, word, "hay");
+    } else {
+        final_word = format!("{}-{}{}", word, first_letter, "ay");
+    }
+
+    println!("Слово в pig latin кодировке: {}", final_word);
+}
+
+fn is_vowel(c: &char) -> bool {
+    let vowels = vec!['a', 'e', 'i', 'o', 'u', 'y'];
+
+    let is_vowels = vowels.contains(c);
+    is_vowels
 }

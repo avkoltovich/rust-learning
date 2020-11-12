@@ -1,11 +1,13 @@
 use std::collections::HashMap;
 
 fn main() {
-    let list: Vec<i32> = vec![ 78, 33, 20, 90, 65, 6, 54, 15, 15, 33, 33, 6, 15, 15, 15 ];
+    let list: Vec<i32> = vec![78, 33, 20, 90, 65, 6, 54, 15, 15, 33, 33, 6, 15, 15, 15];
+    let word = String::from("first");
 
     get_average(&list);
     get_median(&list);
-    repeat_count(&list);
+    get_number_count(&list);
+    get_pig_latin_string(&word);
 }
 
 fn get_average(list: &Vec<i32>) {
@@ -38,14 +40,14 @@ fn get_median(list: &Vec<i32>) {
         let mut index: f32 = (list_length / 2) as f32;
         index = index.ceil();
         let index_i32 = index as usize;
-        
+
         median = list_copy[index_i32];
     }
 
     println!("Среднее Медианное: {}", median);
 }
 
-fn repeat_count(list: &Vec<i32>) {
+fn get_number_count(list: &Vec<i32>) {
     let mut map: HashMap<&i32, i32> = HashMap::new();
     let mut biggest_value: &i32 = &0;
     let mut biggest_key: &i32 = &0;
@@ -69,3 +71,5 @@ fn repeat_count(list: &Vec<i32>) {
 
     println!("Чаще всего встречается: {}", biggest_key);
 }
+
+fn get_pig_latin_string(string: &String) {}

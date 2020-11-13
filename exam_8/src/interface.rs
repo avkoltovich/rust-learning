@@ -37,10 +37,10 @@ pub fn start_crm() {
             continue;
         }
 
-        let indexes_of_spaces = get_indexes_to_slice(&input);
+        let indexes_for_slice = get_indexes_to_slice(&input);
 
-        if indexes_of_spaces.len() > 1 {
-            let words: Vec<String> = get_sliced_words(&input, indexes_of_spaces);
+        if indexes_for_slice.len() > 1 {
+            let words: Vec<String> = get_sliced_words(&input, indexes_for_slice);
 
             if words[0] == commands.add {
             store_personal(&mut personal, &words);

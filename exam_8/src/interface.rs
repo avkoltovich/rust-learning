@@ -37,7 +37,7 @@ pub fn start_crm() {
             continue;
         }
 
-        let indexes_of_spaces = get_indexes_of_spaces(&input);
+        let indexes_of_spaces = get_indexes_to_slice(&input);
 
         if indexes_of_spaces.len() > 1 {
             let words: Vec<String> = get_sliced_words(&input, indexes_of_spaces);
@@ -62,7 +62,7 @@ fn get_input_string() -> String {
     return input.trim().to_string();
 }
 
-fn get_indexes_of_spaces(string: &String) -> Vec<usize> {
+fn get_indexes_to_slice(string: &String) -> Vec<usize> {
     let input = string.clone();
     let bytes = input.as_bytes();
     let mut indexes_of_space: Vec<usize> = vec![];

@@ -13,7 +13,7 @@ pub fn start_crm() {
     let commands = Commands {
         stop: String::from("Выйти"),
         add: String::from("Добавь"),
-        show_org: String::from("Покажи фирму"),
+        show_org: String::from("Покажи всю фирму"),
         show_department: String::from("Покажи отдел"),
     };
     
@@ -28,20 +28,20 @@ pub fn start_crm() {
         }
 
         if input == commands.show_org {
-            println!("Покажу всю фирму, но позже");
-            continue;
-        }
-
-        if input == commands.show_department {
-            println!("Покажу весь отдел, но позже");
+            print_full_org(&personal);
             continue;
         }
 
         let indexes_for_slice = get_indexes_to_slice(&input);
+        let words: Vec<String> = get_sliced_words(&input, &indexes_for_slice);
+        let department_command = format!("{} {}", words[0], words[1]);
+
+        if department_command == commands.show_department {
+            print_department_personal(&personal, &words[words.len() - 1]);
+            continue;
+        }
 
         if indexes_for_slice.len() > 1 {
-            let words: Vec<String> = get_sliced_words(&input, indexes_for_slice);
-
             if words[0] == commands.add {
             store_personal(&mut personal, &words);
             println!("{:?}", personal);
@@ -77,14 +77,14 @@ fn get_indexes_to_slice(string: &String) -> Vec<usize> {
     return indexes_of_space;
 }
 
-fn get_sliced_words(string: &String, indexes: Vec<usize>) -> Vec<String> {
+fn get_sliced_words(string: &String, indexes: &Vec<usize>) -> Vec<String> {
     let mut words: Vec<String> = vec![];
     let input = string.clone();
 
     let mut start_index: usize = 0;
     for i in indexes {
-        words.push(input[start_index..i].trim().to_string());
-        start_index = i;
+        words.push(input[start_index..i.clone()].trim().to_string());
+        start_index = i.clone();
     }
 
     return words;
@@ -104,5 +104,24 @@ fn store_personal(personal_map: &mut HashMap<String, Vec<String>>, command_line:
     } else {
         personal_map.insert(department, vec![name]);
         println!("Успешно добавлен!")
+    }
+}
+
+fn print_full_org(personal_map: &HashMap<String, Vec<String>>) {
+    let mut all_persons: Vec<String> = vec![];
+    
+    for i in personal_map.iter() {
+        let (_, list) = i;
+        let mut value = list.clone();
+        all_persons.append(&mut value);
+    }
+
+    println!("Весь персонал компании: {:?}", all_persons);
+}
+
+fn print_department_personal(personal_map: &HashMap<String, Vec<String>>, department_name: &String) {
+    match personal_map.get(department_name) {
+        Some(value) => println!("Отдел {}: {:?}", department_name, value),
+        None => println!("Отдел не найден")
     }
 }

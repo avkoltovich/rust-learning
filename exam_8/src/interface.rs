@@ -116,6 +116,8 @@ fn print_full_org(personal_map: &HashMap<String, Vec<String>>) {
         all_persons.append(&mut value);
     }
 
+    all_persons.sort();
+
     println!("Весь персонал компании: {:?}", all_persons);
 }
 

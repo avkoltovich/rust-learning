@@ -31,13 +31,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ecfde24-e240-42ec-abe5-daf1320a4d57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/minigrep.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../variables/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../closure" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,6 +95,11 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.build" />
@@ -123,8 +122,16 @@
       <updated>1606149101219</updated>
       <workItem from="1606149102377" duration="2617000" />
       <workItem from="1606151735217" duration="17000" />
-      <workItem from="1606151767652" duration="3730000" />
+      <workItem from="1606151767652" duration="4150000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: реализована функциональность поиска подстроки в файле">
+      <created>1606155601562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606155601562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,15 +149,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: реализована функциональность поиска подстроки в файле" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: реализована функциональность поиска подстроки в файле" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="695" y="507" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606151718224">
       <screen x="0" y="0" width="2160" height="1376" />
     </state>
     <state x="695" y="507" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2160.1376@0.0.2160.1376" timestamp="1606151718224" />
-    <state x="738" y="316" key="FileChooserDialogImpl" timestamp="1606151678255">
+    <state x="738" y="316" key="FileChooserDialogImpl" timestamp="1606155962657">
       <screen x="0" y="0" width="2160" height="1376" />
     </state>
-    <state x="738" y="316" key="FileChooserDialogImpl/0.0.2160.1376@0.0.2160.1376" timestamp="1606151678255" />
+    <state x="738" y="316" key="FileChooserDialogImpl/0.0.2160.1376@0.0.2160.1376" timestamp="1606155962657" />
     <state width="2090" height="390" key="GridCell.Tab.0.bottom" timestamp="1606150757919">
       <screen x="0" y="0" width="2160" height="1376" />
     </state>
@@ -171,5 +182,9 @@
       <screen x="0" y="0" width="2160" height="1376" />
     </state>
     <state x="324" y="142" width="1522" height="1091" key="SettingsEditor/0.0.2160.1376@0.0.2160.1376" timestamp="1606151786056" />
+    <state x="480" y="287" key="Vcs.Push.Dialog.v2" timestamp="1606155607546">
+      <screen x="0" y="0" width="2160" height="1376" />
+    </state>
+    <state x="480" y="287" key="Vcs.Push.Dialog.v2/0.0.2160.1376@0.0.2160.1376" timestamp="1606155607546" />
   </component>
 </project>

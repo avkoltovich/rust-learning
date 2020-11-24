@@ -1,29 +1,25 @@
-fn main() {
-    let arr_a = &[-3, 4, 2];
-    let arr_b = &[1, 2, 3];
+use std::collections::HashMap;
+use std::collections::hash_map::RandomState;
 
-    let result = solve("CODe");
+fn main() {
+    let ad = "John Daggett, 341 King Road, Plymouth MA
+Alice Ford, 22 East Broadway, Richmond VA
+Sal Carpenter, 73 6th Street, Boston MA";
+
+    let result = by_state(ad);
 
     println!("{:?}", result)
 }
 
-fn solve(s: &str) -> String {
-    let mut upper_count = 0;
-    let mut lower_count = 0;
-
-    let string = s.to_string();
-
-    for symbol in string.chars() {
-        if symbol.is_ascii_lowercase() {
-            lower_count += 1;
-        } else {
-            upper_count += 1;
-        }
-    }
-
-    if lower_count >= upper_count {
-        return string.to_lowercase();
-    } else {
-        return string.to_uppercase();
-    }
+fn by_state(str: &str) -> String {
+    let statesMap: HashMap<&str, &str> = [
+        ("AZ", "Arizona"),
+        ("CA", "California"),
+        ("ID", "Idaho"),
+        ("IN", "Indiana"),
+        ("MA", "Massachusetts"),
+        ("OK", "Oklahoma"),
+        ("PA", "Pennsylvania"),
+        ("VA", "Virginia")
+    ].iter().cloned().collect();
 }

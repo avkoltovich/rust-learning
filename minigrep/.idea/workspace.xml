@@ -31,7 +31,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ecfde24-e240-42ec-abe5-daf1320a4d57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../exam_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam_8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variables/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../variables" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,6 +122,7 @@
       <workItem from="1606151735217" duration="17000" />
       <workItem from="1606151767652" duration="4150000" />
       <workItem from="1606245173544" duration="2704000" />
+      <workItem from="1606328586334" duration="2461000" />
     </task>
     <task id="LOCAL-00001" summary="feat: реализована функциональность поиска подстроки в файле">
       <created>1606155601562</created>

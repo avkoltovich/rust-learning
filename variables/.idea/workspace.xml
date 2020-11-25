@@ -31,7 +31,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf025ce-bb90-4e3d-881c-62d3a35bf7a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../exam_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam_8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minigrep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minigrep/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +60,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exam_8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../minigrep" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunManager">
@@ -76,6 +79,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,8 +89,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606248159051</updated>
-      <workItem from="1606248160215" duration="3588000" />
+      <workItem from="1606248160215" duration="3675000" />
+      <workItem from="1606288012206" duration="191000" />
+      <workItem from="1606327358197" duration="10600000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: добавляет данные для задачки на Codewars про штаты">
+      <created>1606252393108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606252393108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,11 +116,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: добавляет данные для задачки на Codewars про штаты" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: добавляет данные для задачки на Codewars про штаты" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="762" y="338" key="FileChooserDialogImpl" timestamp="1606250902137">
+    <state x="762" y="338" width="636" height="723" key="FileChooserDialogImpl" timestamp="1606328581616">
       <screen x="0" y="0" width="2160" height="1376" />
     </state>
-    <state x="762" y="338" key="FileChooserDialogImpl/0.0.2160.1376@0.0.2160.1376" timestamp="1606250902137" />
+    <state x="762" y="338" width="636" height="723" key="FileChooserDialogImpl/0.0.2160.1376@0.0.2160.1376" timestamp="1606328581616" />
+    <state x="480" y="299" key="Vcs.Push.Dialog.v2" timestamp="1606252396754">
+      <screen x="0" y="0" width="2160" height="1376" />
+    </state>
+    <state x="480" y="299" key="Vcs.Push.Dialog.v2/0.0.2160.1376@0.0.2160.1376" timestamp="1606252396754" />
   </component>
 </project>

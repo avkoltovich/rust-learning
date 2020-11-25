@@ -31,8 +31,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0afbeb08-8923-497d-893b-8962005ce3a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../minigrep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minigrep/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../variables/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +58,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../variables" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606250904288</updated>
       <workItem from="1606250905490" duration="743000" />
+      <workItem from="1606286398792" duration="238000" />
     </task>
     <servers />
   </component>
@@ -89,5 +91,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="685" y="454" width="780" height="479" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606286457598">
+      <screen x="0" y="0" width="2160" height="1376" />
+    </state>
+    <state x="685" y="454" width="780" height="479" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2160.1376@0.0.2160.1376" timestamp="1606286457598" />
+    <state x="757" y="310" key="FileChooserDialogImpl" timestamp="1606288007562">
+      <screen x="0" y="0" width="2160" height="1376" />
+    </state>
+    <state x="757" y="310" key="FileChooserDialogImpl/0.0.2160.1376@0.0.2160.1376" timestamp="1606288007562" />
   </component>
 </project>

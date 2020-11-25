@@ -31,7 +31,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf025ce-bb90-4e3d-881c-62d3a35bf7a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../exam_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam_8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minigrep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minigrep/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
@@ -91,7 +90,7 @@
       <updated>1606248159051</updated>
       <workItem from="1606248160215" duration="3675000" />
       <workItem from="1606288012206" duration="191000" />
-      <workItem from="1606327358197" duration="10600000" />
+      <workItem from="1606327358197" duration="12210000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавляет данные для задачки на Codewars про штаты">
       <created>1606252393108</created>
@@ -100,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606252393108</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: добавляет частичную реализацию задачи со строками">
+      <created>1606339314539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606339314539</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,16 +126,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: добавляет данные для задачки на Codewars про штаты" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: добавляет данные для задачки на Codewars про штаты" />
+    <MESSAGE value="feat: добавляет частичную реализацию задачи со строками" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: добавляет частичную реализацию задачи со строками" />
   </component>
   <component name="WindowStateProjectService">
     <state x="762" y="338" width="636" height="723" key="FileChooserDialogImpl" timestamp="1606328581616">
       <screen x="0" y="0" width="2160" height="1376" />
     </state>
     <state x="762" y="338" width="636" height="723" key="FileChooserDialogImpl/0.0.2160.1376@0.0.2160.1376" timestamp="1606328581616" />
-    <state x="480" y="299" key="Vcs.Push.Dialog.v2" timestamp="1606252396754">
+    <state x="480" y="299" key="Vcs.Push.Dialog.v2" timestamp="1606339321611">
       <screen x="0" y="0" width="2160" height="1376" />
     </state>
-    <state x="480" y="299" key="Vcs.Push.Dialog.v2/0.0.2160.1376@0.0.2160.1376" timestamp="1606252396754" />
+    <state x="480" y="299" key="Vcs.Push.Dialog.v2/0.0.2160.1376@0.0.2160.1376" timestamp="1606339321611" />
   </component>
 </project>

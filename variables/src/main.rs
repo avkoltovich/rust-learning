@@ -2,11 +2,16 @@ use std::collections::HashMap;
 use std::collections::hash_map::RandomState;
 
 fn main() {
-    let str = "John Daggett, 341 King Road, Plymouth MA
-Alice Ford, 22 East Broadway, Richmond VA
-Sal Carpenter, 73 6th Street, Boston MA";
+    let str = "John Pulsett, 321 King Street, Palmouth MA
+Alisa Gord, 22 Prin Broadway, Georges VA
+Oreste Thulas, 11354 East Bridge Road, Pensa OK
+Perry Falpas, 420 Land Road, Beaver Halls PA
+Erica Adamson, 200 Station Road, Westbury MA
+Paulo Sims, 8A River Street, Richmond VA
+Ann Wildon, 334 Shore Parkway, Hill View CA
+Al Carpenter, 730 3rd Street, Boston MA";
 
-    let statesMap: HashMap<&str, &str> = [
+    let states_map: HashMap<&str, &str> = [
         ("AZ", "Arizona"),
         ("CA", "California"),
         ("ID", "Idaho"),
@@ -27,13 +32,16 @@ Sal Carpenter, 73 6th Street, Boston MA";
     let result_vec: Vec<String> = states_in_string
         .iter()
         .map(|item| {
-            let mut complete_string = statesMap[item].to_owned() + "\n";
-            let filtered_strings: Vec<String> = str
+            let mut complete_string = states_map[item].to_owned() + "\n";
+            let mut filtered_strings: Vec<String> = str
                 .lines()
                 .filter(|line| line.contains(item))
                 .map(|line| "..... ".to_owned() + line + "\n")
-                .map(|line| line.replace(item, statesMap[item]))
+                .map(|line| line.replace(item, states_map[item]))
                 .collect();
+
+            filtered_strings.sort();
+
             for line in filtered_strings {
                 complete_string.push_str(&line[..])
             }
@@ -50,6 +58,9 @@ Sal Carpenter, 73 6th Street, Boston MA";
         }
         result_string.push_str(&string_to_push[..]);
     }
+
+    result_string = result_string.replace(",", "");
+    result_string = result_string[..result_string.len() - 1].to_string();
 
     println!("{:?}", result_string)
 }

@@ -31,9 +31,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf025ce-bb90-4e3d-881c-62d3a35bf7a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../minigrep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minigrep/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +66,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -91,6 +83,9 @@
       <workItem from="1606248160215" duration="3675000" />
       <workItem from="1606288012206" duration="191000" />
       <workItem from="1606327358197" duration="12210000" />
+      <workItem from="1606763686999" duration="25000" />
+      <workItem from="1606764869738" duration="160000" />
+      <workItem from="1606765054312" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавляет данные для задачки на Codewars про штаты">
       <created>1606252393108</created>
@@ -134,6 +129,10 @@
       <screen x="0" y="0" width="2160" height="1376" />
     </state>
     <state x="762" y="338" width="636" height="723" key="FileChooserDialogImpl/0.0.2160.1376@0.0.2160.1376" timestamp="1606328581616" />
+    <state x="222" y="106" key="SettingsEditor" timestamp="1606765161873">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="222" y="106" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1606765161873" />
     <state x="480" y="299" key="Vcs.Push.Dialog.v2" timestamp="1606339321611">
       <screen x="0" y="0" width="2160" height="1376" />
     </state>

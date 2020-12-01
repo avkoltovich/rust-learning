@@ -30,7 +30,15 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdf025ce-bb90-4e3d-881c-62d3a35bf7a5" name="Default Changelist" comment="" />
+    <list default="true" id="36e80c97-53f2-459f-80c3-ac82ec10d2ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hello/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,19 +51,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="l6t4qrky" />
+    <option name="directoryName" value="mhbi1ylb" />
   </component>
-  <component name="ProjectId" id="1kkcilo943ztL0acwa49rTMDhdP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1l3tDgyVsOjkjdEYC3PYZpTQGBM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../threads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,43 +77,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fdf025ce-bb90-4e3d-881c-62d3a35bf7a5" name="Default Changelist" comment="" />
-      <created>1606248159051</created>
+      <changelist id="36e80c97-53f2-459f-80c3-ac82ec10d2ad" name="Default Changelist" comment="" />
+      <created>1606837485087</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606248159051</updated>
-      <workItem from="1606248160215" duration="3675000" />
-      <workItem from="1606288012206" duration="191000" />
-      <workItem from="1606327358197" duration="12210000" />
-      <workItem from="1606763686999" duration="25000" />
-      <workItem from="1606764869738" duration="160000" />
-      <workItem from="1606765054312" duration="109000" />
-      <workItem from="1606837424331" duration="59000" />
+      <updated>1606837485087</updated>
+      <workItem from="1606837486476" duration="1408000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: добавляет данные для задачки на Codewars про штаты">
-      <created>1606252393108</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606252393108</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: добавляет частичную реализацию задачи со строками">
-      <created>1606339314539</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1606339314539</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,30 +106,14 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: добавляет данные для задачки на Codewars про штаты" />
-    <MESSAGE value="feat: добавляет частичную реализацию задачи со строками" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: добавляет частичную реализацию задачи со строками" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="508" y="226" width="636" height="723" key="FileChooserDialogImpl" timestamp="1606837480988">
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1606845631335">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="508" y="226" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1606837480988" />
-    <state x="762" y="338" width="636" height="723" key="FileChooserDialogImpl/0.0.2160.1376@0.0.2160.1376" timestamp="1606328581616" />
-    <state x="222" y="106" key="SettingsEditor" timestamp="1606765161873">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="222" y="106" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1606765161873" />
-    <state x="480" y="299" key="Vcs.Push.Dialog.v2" timestamp="1606339321611">
-      <screen x="0" y="0" width="2160" height="1376" />
-    </state>
-    <state x="480" y="299" key="Vcs.Push.Dialog.v2/0.0.2160.1376@0.0.2160.1376" timestamp="1606339321611" />
-    <state x="539" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606837463716">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="539" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1606837463716" />
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1606845631335" />
   </component>
 </project>
